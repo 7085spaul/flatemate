@@ -1,0 +1,171 @@
+---
+name: Urban Nesting
+colors:
+  surface: '#fff7f9'
+  surface-dim: '#ebd3e4'
+  surface-bright: '#fff7f9'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#ffeff8'
+  surface-container: '#ffe7f7'
+  surface-container-high: '#fae1f2'
+  surface-container-highest: '#f4dcec'
+  on-surface: '#251723'
+  on-surface-variant: '#564052'
+  inverse-surface: '#3b2c38'
+  inverse-on-surface: '#ffebf8'
+  outline: '#887083'
+  outline-variant: '#dbbed4'
+  surface-tint: '#a800aa'
+  primary: '#a400a6'
+  on-primary: '#ffffff'
+  primary-container: '#cd00d0'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#ffaaf5'
+  secondary: '#a023a0'
+  on-secondary: '#ffffff'
+  secondary-container: '#ff7bf7'
+  on-secondary-container: '#780079'
+  tertiary: '#006c04'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#008808'
+  on-tertiary-container: '#f8fff0'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffd7f6'
+  primary-fixed-dim: '#ffaaf5'
+  on-primary-fixed: '#380038'
+  on-primary-fixed-variant: '#800082'
+  secondary-fixed: '#ffd7f6'
+  secondary-fixed-dim: '#ffaaf5'
+  on-secondary-fixed: '#380038'
+  on-secondary-fixed-variant: '#800082'
+  tertiary-fixed: '#76ff64'
+  tertiary-fixed-dim: '#00e617'
+  on-tertiary-fixed: '#002200'
+  on-tertiary-fixed-variant: '#005302'
+  background: '#fff7f9'
+  on-background: '#251723'
+  surface-variant: '#f4dcec'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: 40px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '500'
+    lineHeight: 20px
+  label-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  margin: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system establishes a clean, modern, and youthful yet professional aesthetic tailored for a real estate and roommate matching platform in Bengaluru. The brand identity bridges the gap between the energetic aspirations of young professionals and students and the trustworthiness required in housing decisions. 
+
+The visual style blends **Minimalism** with **Corporate Modern** influences: heavy reliance on generous whitespace, pristine structural cards, and a vibrant, human-centric color palette that avoids cold corporate tropes. The interface evokes a sense of clarity, reliability, and effortless social connection.
+
+## Colors
+
+The color palette is built on a vibrant, energetic chromatic scheme paired with clean slate neutrals. 
+
+- **Primary (`#F900FC`):** Communicates bold energy, creativity, and modern living. Used for primary actions, active states, and key brand touchpoints.
+- **Tertiary (`#0AF51C`):** Provides a striking, high-impact accent for highlights, verified badges, and secondary actions.
+- **Neutrals:** The canvas utilizes `#F8FAFC` (Slate 50) for a soft, low-fatigue background, contrasted against crisp `#FFFFFF` cards and deep `#0F172A` text.
+
+## Typography
+
+The typography system pairs **Plus Jakarta Sans** for warm, approachable headlines with **Inter** for clean, highly readable body copy. 
+
+Ensure line heights remain generous to enhance scanning across property listings and roommate profiles. For mobile viewports, scale down any headline larger than `headline-lg` by 25% to maintain optimal proportions.
+
+## Layout & Spacing
+
+This design system uses a **fluid grid** model optimized for high-density information display (listings, filters, and user cards). 
+
+- **Grid:** 12-column fluid grid on desktop, scaling down to 4 columns on mobile.
+- **Breakpoints:** Mobile (`< 640px`), Tablet (`640px - 1024px`), Desktop (`> 1024px`).
+- **Rhythm:** Maintain consistent vertical rhythm using multiples of the 8px base unit. Outer margins adapt from 1rem on mobile to 2.5rem on desktop.
+
+## Elevation & Depth
+
+Visual hierarchy is achieved through a hybrid approach combining **tonal layers** and **ambient shadows**. 
+
+- **Surfaces:** The base canvas sits at the lowest plane (Slate 50). Interactive cards and navigation bars float above on crisp white surfaces (`#FFFFFF`).
+- **Shadows:** Use ultra-soft, diffused shadows (`0 4px 20px -2px rgba(15, 23, 42, 0.08)`) to suggest lightweight elevation without visual clutter. Avoid harsh, high-opacity black drop shadows.
+
+## Shapes
+
+The design system employs a friendly, rounded shape language (`rounded-2xl` equivalents for primary containers). 
+
+- **Containers & Cards:** Default to `1rem` to `1.5rem` border radii, creating an inviting, modern feel.
+- **Buttons & Badges:** Use pill shapes (`9999px`) for interactive triggers, filter chips, and status indicators to emphasize approachability and touch targets.
+
+## Components
+
+### Buttons
+Primary buttons feature the vibrant primary background with white text, pill-shaped or softly rounded corners, and a subtle scale transition on hover. Secondary buttons use ghost or outlined variants.
+
+### Cards
+Property and roommate cards are constructed on pure white surfaces with `rounded-2xl` corners, subtle ambient shadows, and internal padding of `space-lg`. Image containers occupy the top half with an aspect ratio of 16:9.
+
+### Input Fields
+Form inputs feature a neutral background, `1px` subtle borders, and `rounded-xl` corners. Focus states transition smoothly to the primary outline with a matching soft glow ring.
+
+### Chips & Tags
+Used extensively for amenity tags, budget ranges, and lifestyle preferences. Styled as small pill badges with light tinted backgrounds and medium-weight text.
+
+### Checkboxes & Radios
+Custom-styled square checkboxes and circular radios utilizing the primary color for checked states, ensuring high accessibility and visual polish.

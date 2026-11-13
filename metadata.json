@@ -1,0 +1,6 @@
+{
+  "name": "FlatMate AI – Bengaluru",
+  "description": "Find your flat. Find your flatmate. Feel at home. Explore sample Bengaluru flats and PGs, explainable roommate compatibility matching, and AI-powered housing recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
